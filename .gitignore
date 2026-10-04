@@ -1,0 +1,27 @@
+# Linux kernel module build files
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+modules.order
+.Module.symvers
+.mod.c
+.mod.o
+.cmd
+.tmp_versions/
+
+*.cmd
+# User-space binaries
+userspace/linuxguard_monitor
+tests/driver_test
+tests/ioctl_test
+
+# Runtime logs
+logs/*.log
+
+# Editor files
+*.swp
+*.swo
+*~
